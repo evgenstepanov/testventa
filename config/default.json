@@ -1,5 +1,0 @@
-{
-  "port": 5000,
-  "jwtSecret": "test secret jwt",
-  "mongoUri": "mongodb+srv://pinchuk-v:piMlc95Wnj543guQ@venta-mebel-tasks-manag.kkm8b.mongodb.net/Venta-Mebel-Tasks-Manager?retryWrites=true&w=majority"
-}
