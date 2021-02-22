@@ -1,0 +1,127 @@
+.users-list {
+  overflow: hidden;
+  margin: auto;
+  width: 602px;
+  max-width: 90vw;
+  border-radius: 6px;
+}
+
+.users-list__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding-left: 25px;
+  color: white;
+  background: radial-gradient(138.81% 16453.56% at -23.78% 12.1%, #3C8291 9.59%, #00B5AD 100%);
+}
+
+.users-list__title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user-list__number-users {
+  font-weight: 300;
+}
+
+.close-button-form {
+  cursor: pointer;
+}
+
+.users-list__table {
+  padding: 20px 25px 25px;
+  background-color: #fff;
+}
+
+.users-list__titles-cols {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #949494;
+}
+
+.users-list__title-col:nth-child(1) {
+  text-align: start;
+}
+
+.users-list__title-col:nth-child(3) {
+  text-align: end;
+}
+
+.user-row {
+  position: relative;
+  display: grid;
+  height: 58px;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.user-row__user {
+  margin-left: 50px;
+  text-align: start;
+  color: #333333;
+}
+
+.user__avatar {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  border-radius: 50%;
+  background: url('../../../css/img/carbon_user-avatar-filled.svg');
+  background-size: contain;
+}
+.user__name {
+  margin-top: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  color: #949494;
+} 
+
+.user-row__checkbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-row__checkbox-label {
+  margin-right: 27px;
+  width: 18px;
+  justify-content: center; 
+}
+
+.user-row__checkbox-label::before {
+  margin: 0;
+  width: 18px;
+}
+
+.user-list-submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.line-after-users-row {
+  content: '';
+  display: block;
+  margin-left: auto;
+  height: 1px;
+  width: 503px;
+  background-color: #F2F2F2;
+}
+.container-user-row:last-child .line-after-users-row {
+  width: 0;
+}
+
+.users-list__line-after-table {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: #F2F2F2;
+}
